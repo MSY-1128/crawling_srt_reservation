@@ -34,8 +34,8 @@ try:
     logger.debug('예매 로그인사이트로 이동합니다.')
     driver.get('https://etk.srail.kr/cmc/01/selectLoginForm.do?pageId=TK0701000000')
     time.sleep(5)
-    id = '2088936200'
-    pw = '357159!ansdlsqh'
+    id = '???'
+    pw = '???'
     tag_id = driver.find_element_by_name('srchDvNm').send_keys(id)
     tag_pw = driver.find_element_by_name('hmpgPwdCphd').send_keys(pw)
     log_in_go = '//*[@id="login-form"]/fieldset/div[1]/div[1]/div[2]/div/div[2]/input'
